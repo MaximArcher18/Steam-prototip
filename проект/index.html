@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прототип steam</title>
+</head>
+<style>
+    nav.client ul{
+        display: flex;
+        gap: 30px;
+    }
+    nav.client ul.ul1{
+        width: 65%;
+    }
+    nav.client ul.ul2{
+        width: 25%;
+    }
+    nav.client li{
+        font-size: 1rem;
+        color: white;
+    }
+    nav{
+        display: flex;
+        gap: 25%;
+        width: 100%;
+        background-color: darkblue;
+    }
+    nav ul{
+        display: flex;
+        text-decoration: none;
+        gap: 10%;
+        list-style-type: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    label{
+        color: white;
+    }
+    nav input{
+        color: white;
+        background-color: darkblue;
+    }
+    main{
+        padding: 30px;
+        background-color: rgb(30, 35, 41, 39);
+        margin: 0, 300px, 0, 300px;
+    }
+    main p{
+        color: white;
+    }
+    main {
+        color: white;
+    }
+    main ul{
+        list-style-type: none;
+    }
+    main li {
+        color: white;
+    }
+    footer{
+        background-color: #483d8b;
+        width: 100%;
+    }
+    footer div{
+        width: 25%;
+    }
+    footer p{
+        color: white;
+    }
+    footer ul{
+        list-style-type: none;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    .parent{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+    }
+    .tags{
+        background-color: #00003445;
+
+    }
+    .gamename{
+        width: 70%;
+    }
+    .blockzagolovok{
+        display: flex;
+    }
+    .steamimg{
+        width: 150px;
+    }
+    .client{
+        background-color: rgb(30, 35, 41, 39);
+        display: flex;
+        gap:50px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="client">
+            <ul class="ul1">
+                <li><a href="#"><img src="Frame 331.png"></a></li>
+                <li><a href="#"><img src="steam.png" class="steamimg"></a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">JUXTOPPOSED</a></li>
+                <li><a href="#">LIBRARY</a></li>
+                <li><a href="#">DOWNLOADS</a></li>
+            </ul>
+            <ul class="ul2">
+                <li><a href="#"><img src="friends.png" alt="friends"></a></li>
+                <li><a href="#"><img src="notifications.png" alt="notifications"></a></li>
+                <li><a href="#"><img src="profile.png" alt="profile"></a></li>
+            </ul>
+            <div><img src="sestems.png"></div>
+        </nav>
+    </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Points shop</a></li>
+                <li><a href="#">Curators</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+            <form role="search">
+                <label for="search-field">Search:</label>
+                <input
+                  type="search"
+                  id="search-field"
+                  name="search"
+                  placeholder="Найти"
+                >
+                <input type="submit" value="Искать">
+              </form>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="blockzagolovok">
+                <h1 class="gamename">Elden Ring</h1>
+                <ul class="parent">
+                    <li>Ignore</li>
+                    <li>Follow</li>
+                    <li>Wishlist <img src="Favorite border.png" alt="fav"></li>
+                    <li>Browse All DLCs</li>
+                    <li>Community Hub</li>
+                </ul>
+            </div>
+            <div class="parent">
+                <div>
+                    <img src="eldenring.png" alt="elden ring gameplay sreenshot">
+                </div>
+                <div>
+                    <img src="eldenreingtitle.png" alt="elelden ring gameplay sreenshot">
+                    <p>THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.</p>
+                    <ul>
+                        <li>Reviews</li>
+                        <li><ul class="parent">
+                            <li>Past Month</li>
+                            <li>534,170 Reviews</li>
+                        </ul></li>
+                        <li><ul class="parent">
+                            <li>All time</li>
+                            <li>534,170 Reviews</li>
+                        </ul></li>
+                        <li>Release Date: 25 Feb 2022</li>
+                        <li>Developer: FromSoftware</li>
+                        <li>Publisher: FromSoftware, Bandai Namco Entertainment</li>
+                        <li>Popular Tags</li>
+                    </ul>
+                    <ul class="parent">
+                        <li class="tags">Souls-like</li>
+                        <li class="tags">RPG</li>
+                        <li class="tags">Dark Fantasy</li>
+                        <li class="tags">Open-world</li>
+                        <li class="tags">+</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="parent">
+            <div>
+                <ul class="parent">
+                    <li><img src="image 125.png" alt="valve"></li>
+                    <li><img src="Group.png" alt="steam"></li>
+                </ul>
+                <p>© 2023 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+                    VAT included in all prices where applicable.</p>
+            </div>
+            <div><ul>
+                <li><a href="#">About valve</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Steamworks</a></li>
+                <li><a href="#">Steam Distribution</a></li>
+                <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Steam Subscriber Agreement</a></li>
+                    <li><a href="#">Refunds</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="parent">
+                    <li><a href="#"><img src="Facebook F.jpg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="TwitterX.jpg" alt="TwitterX"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
